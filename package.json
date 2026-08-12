@@ -1,0 +1,25 @@
+{
+  "name": "telegram-bot-backend",
+  "version": "1.0.0",
+  "description": "Telegram Bot Serverless Backend for Vercel with Firebase Firestore",
+  "main": "api/telegram.js",
+  "scripts": {
+    "start": "node api/telegram.js"
+  },
+  "dependencies": {
+    "firebase": "^10.12.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "vercel",
+    "firebase",
+    "serverless"
+  ],
+  "author": "",
+  "license": "ISC"
+}
